@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="Pixel_8">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener" />
+        </listeners>
+        <parameter name="emulator" value="true" />
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="emulator-5554" />
+        <parameter name="deviceName" value="Pixel_8_API_31" />
+        <parameter name="systemPort" value="10000" />
+        <parameter name="chromeDriverPort" value="11000" />
+        <classes>
+            <class name="com.qa.tests.LoginTests">
+                <methods>
+                    <include name="invalidUserName"/>
+                </methods>
+            </class>
+           <!-- <class name="com.qa.tests.ProductTests"/>-->
+        </classes>
+    </test>
+    <test name="iPhone15ProMax">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener" />
+        </listeners>
+        <parameter name="platformName" value="iOS" />
+        <parameter name="udid" value="C3C7C541-59E3-4551-8224-2EEB20CD9780" />
+        <parameter name="deviceName" value="iPhone 15 Pro Max" />
+        <parameter name="wdaLocalPort" value="10001" />
+        <parameter name="webkitDebugProxyPort" value="11001" />
+        <classes>
+            <class name="com.qa.tests.LoginTests">
+                <methods>
+                    <include name="invalidUserName"/>
+                </methods>
+            </class>
+
+            <!--<class name="com.qa.tests.ProductTests"/>-->
+        </classes>
+    </test>
+</suite> <!-- Suite -->

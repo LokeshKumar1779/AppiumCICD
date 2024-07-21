@@ -19,7 +19,7 @@
            <!-- <class name="com.qa.tests.ProductTests"/>-->
         </classes>
     </test>
-    <test name="iPhone15ProMax">
+   <!-- <test name="iPhone15ProMax">
         <listeners>
             <listener class-name="com.qa.listeners.TestListener" />
         </listeners>
@@ -37,5 +37,5 @@
 
             <!--<class name="com.qa.tests.ProductTests"/>-->
         </classes>
-    </test>
+    </test>-->
 </suite> <!-- Suite -->

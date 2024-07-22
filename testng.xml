@@ -35,7 +35,7 @@
                 </methods>
             </class>
 
-            <!--<class name="com.qa.tests.ProductTests"/>-->
+           <class name="com.qa.tests.ProductTests"/>
         </classes>
     </test>-->
 </suite> <!-- Suite -->
